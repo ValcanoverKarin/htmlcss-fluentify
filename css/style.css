@@ -4,12 +4,70 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: "Roboto";
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col {
+    float: left;
+}
+
 /*HEADER*/
 header {
-    height: 1540px;
+    height: 500px;
     background-color: #0d325a;
     background-image: url("../img/background-header.png");
-    background-size: 2800px;
+    background-size: 900px;
     background-repeat: no-repeat;
     background-position: 120% 110%;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+    height: 200px;
+}
+
+.logo {
+    width: 10%;
+    background-color: mistyrose;
+    padding-top: 10px;
+}
+
+.central-menu {
+    width: 55%;
+    background-color: palegreen;
+    padding-left: 30px;
+}
+
+.right-menu {
+    width: 35%;
+    background-color: peachpuff;
+}
+
+.menu {
+    list-style-type: none;
+    padding-top: 22px;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li a {
+    font-size: 11px;
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
 }
