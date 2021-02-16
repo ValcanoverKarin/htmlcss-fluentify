@@ -39,6 +39,12 @@ img {
     padding: 10px 0px;
 }
 
+.img-fit-container {
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+}
+
 /*HEADER*/
 header {
     height: 500px;
@@ -52,7 +58,6 @@ header {
 .container {
     width: 1024px;
     margin: 0 auto;
-    height: 200px;
 }
 
 
@@ -118,11 +123,48 @@ h1 {
 
 /*MAIN*/
 /*linea grigia*/
-.grey-line {
-    height: 120px;
+.grey-section {
     background-color: #d3d3d3;
+    padding: 30px;
 }
 
-.grey-line h2 {
+h2 {
     text-align: center;
+    margin: auto;
+    font-size: 22px;
+}
+.colonna {
+    padding: 30px 0;
+    border-bottom: 1px solid #d3d3d3;
+}
+.clearfix-section {
+    background-color: green;
+    width: 30%;
+    height: 500px;
+}
+
+main .col-left {
+    width: 30%;
+}
+main .col-center {
+    width: 30%;
+    margin: 0 5%;
+}
+main .col-right {
+    width: 30%;
+}
+
+.img-container img {
+    height: 120px;
+}
+
+.colonna h2 {
+   color: #7cbb02;
+   text-align: center;
+   padding: 20px 0;
+}
+
+.colonna hr {
+    width: 60px;
+    margin: auto;
 }
