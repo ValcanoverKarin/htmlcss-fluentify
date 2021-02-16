@@ -33,6 +33,12 @@ img {
     float: left;
 }
 
+.text {
+    text-align:center;
+    color: #808080;
+    padding: 10px 0px;
+}
+
 /*HEADER*/
 header {
     height: 500px;
@@ -91,6 +97,7 @@ nav {
     padding: 7px 25px;
     border-radius: 5px;
 }
+/*fine menu*/
 
 /*teaser*/
 .teaser {
@@ -106,4 +113,16 @@ h1 {
 .teaser .button {
     padding: 20px 20px;
     margin-top: 7%;
+}
+/*fine teaser*/
+
+/*MAIN*/
+/*linea grigia*/
+.grey-line {
+    height: 120px;
+    background-color: #d3d3d3;
+}
+
+.grey-line h2 {
+    text-align: center;
 }
