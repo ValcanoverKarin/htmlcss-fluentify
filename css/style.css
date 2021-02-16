@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*HEADER*/
+header {
+    height: 1540px;
+    background-color: #0d325a;
+    background-image: url("../img/background-header.png");
+    background-size: 2800px;
+    background-repeat: no-repeat;
+    background-position: 120% 110%;
+}
