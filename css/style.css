@@ -45,6 +45,12 @@ img {
     position: relative;
 }
 
+h2 {
+    text-align: center;
+    margin: auto;
+    font-size: 22px;
+}
+
 /*HEADER*/
 header {
     height: 500px;
@@ -122,18 +128,13 @@ h1 {
 /*fine teaser*/
 
 /*MAIN*/
-/*linea grigia*/
+/*sezione grigia*/
 .grey-section {
     background-color: #d3d3d3;
     padding: 30px;
 }
 
-h2 {
-    text-align: center;
-    margin: auto;
-    font-size: 22px;
-}
-.colonna {
+.section {
     padding: 30px 0;
     border-bottom: 1px solid #d3d3d3;
 }
@@ -143,28 +144,30 @@ h2 {
     height: 500px;
 }
 
-main .col-left {
+main .col-left, main .col-right{
     width: 30%;
 }
+
 main .col-center {
     width: 30%;
     margin: 0 5%;
-}
-main .col-right {
-    width: 30%;
 }
 
 .img-container img {
     height: 120px;
 }
 
-.colonna h2 {
+.section h2 {
    color: #7cbb02;
-   text-align: center;
-   padding: 20px 0;
+   padding: 20px;
 }
 
-.colonna hr {
+.section .text {
+    padding: 20px 0px;
+}
+
+.section hr {
     width: 60px;
     margin: auto;
 }
+/*FINE MAIN*/
